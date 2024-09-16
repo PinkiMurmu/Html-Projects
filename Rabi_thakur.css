@@ -1,0 +1,9 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    background-color: aquamarine;
+}
+#name{
+    color: rgb(5, 5, 127);
+}
