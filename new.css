@@ -1,274 +1,38 @@
-*,
-*::after,
-*::before{
-    box-sizing: border-box;
+/* *{
+    background-color: palevioletred;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-family: inter;
+h1{
+    color: blue;
 }
-header{
-    background: linear-gradient(90deg, #FFE6E6 0%, #F5FFFE 26.81%, #FCF3FF 54.58%, #FFF4E6 99.86%);
-
-}
-/*  Buttons  */
-
-.btn{
-    width: 138px;
-    height: 48px;
-    padding:10px 30px;
-    border-radius: 62px;
+button{
     color: white;
-    background-color: #E71D36;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19.36px;
-    text-align: left;
-    text-decoration: none;
-    position: relative;
-}
-#km{
-    width: 173px;
-height: 52px;
-/* top: 35px; */
-border-radius: 62px;
-color: #011627;
-
-}
-/* .btn-blue{
-    width: 248.16px;
-    height: 75.14px;
-    top: 3336px;
-    left: 836px;
-    border-radius: 10px;
-    background: #2EC4B6;
+    background-color: blue;
 } */
-#btn-white{
-    color: #E71D36;
-    left: 600px;
-    width: 186px;
-    height: 52px;
+/* .box{
+   height: 100px;
+   width: 100px;
+   border: 1px solid black; 
+   margin: 10px;
+   text-align: center;
+   background-color: aquamarine;
+} */
+
+/* .para{
+    color: red;
 }
-.wrapper{
-    max-width: 1350px;
-    top: 39px;
-    left: 137px;
-    margin: 0 auto;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 5px;
-    z-index: 100;
-}
-nav .logo{
-    width: 120px;
-    height: 135px;
-    top: 39px;
-    left: 147px;
-    align-items: center;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
-    margin: 0%;
-}
-nav ul li a{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19.36px;
-    text-align: left;
-    text-decoration: none;
+
+.newPara{
+    background-color: blue
+} */
+.light{
+    background-color: white;
     color: black;
 }
-nav ul li a.home{
-    color: #E71D36;
+.dark{
+    background-color: black;
+    color: white;
 }
-
-
-/* Hero section*/
-
-.hero-section{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    /* margin-bottom: 50px; */
-}
-
-.hero-section .left .big{
-    font-size: 20px;
-    font-weight: 500px;
-    line-height: 31.47px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #FF1D03;
-    margin-bottom: 0;
-    left: 10px;
-}
-.hero-section .left{
-    width: 804px;
-}
-.hero-section .left h1{
-    /* top: 600px;
-    left: 162px; */
-    font-size: 50px;
-    line-height: 50px;
-    margin-bottom: 0px;
-    line-height: 70px;
-}
-.hero-section p{
-    line-height: 25px;
-}
-p{
-    margin-bottom: 50px;
-}
-.hero-section .right{
-    align-self: flex-end;
-}
-.hero-section .right img{
-    height: 550px;
-    vertical-align: middle;
-}
-.second-page h1{
-    font-size: 50px;
-    font-weight: 500px;
-    letter-spacing: 0.02em;
-    padding-top: 20px;
-    text-align: center;
-    color: #E71D36;
-}
-.second-page .upper{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-.second-page .lower p{
-    font-weight: 400;
-    size: 16px;
-}
-.second-page .lower a{
-    text-decoration: none;
-}
-.second-page .lower .first img{
-    background-color: #FFECEA;
-}
-.second-page .lower .first{
-    border: 1px solid;
-    border-color: rgba(231, 29, 54, 0.6);
-    padding: 5px 15px 0px;
-    border-radius: 20px;
-    width: 200px;
-    height: 275px;
-}
-.second-page .lower .first a{
-    color: #FF1D03;
-}
-.second-page .lower .second{
-    border: 1px solid;
-    border-color: rgba(231, 29, 54, 0.6);
-    padding: 5px 15px 0px;
-    border-radius: 20px;
-    width: 200px;
-    height: 275px;
-}
-.second-page .lower .third{
-    border: 1px solid;
-    border-radius: 20px;
-    width: 200px;
-    padding: 5px 15px 0px;
-    border-color: rgba(231, 29, 54, 0.6);
-    height: 275px;
-}
-.second-page .lower .third a{
-    color: #FF1D03;
-}
-.second-page .lower .fourth{
-    border: 1px solid;
-    border-color: rgba(231, 29, 54, 0.6);
-    border-radius: 20px;
-    width: 200px;
-    padding: 5px 15px 0px;
-    height: 275px;
-}
-.second-page .lower{
-    display: flex;
-    margin: 0px 150px;
-    justify-content: center;
-    justify-content: space-between;
-}
-/* Third page */
-
-.third-page{
-    margin-top: 50px;
-    background-color: #FEF4F0;
-}
-.third-page a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding-top: 8px;
-    width: 50%;
-    text-align: center;
-    font-size: 16px;
-    width: 120px;
-    height: 35px;
-    border-radius: 10px;
-    background-color: #2EC4B6;
-}
-.third-page h1{
-    font-size: 55px;
-    font-weight: 500px;
-    letter-spacing: 0.02em;
-    padding-top: 20px;
-    color: #FF1D03;
-    text-align: center;
-}
-.third-page pre{
-    font-size: 18px;
-    text-align: center;
-    font-weight: 500px;
-    padding: 25px;
-    padding-bottom: 40px;
-}
-.third-page .image{
-    display: flex;
-    height: 300px;
-    width: 550px;
-}
-.third-page .image2{
-    display: flex;
-}
-
-/* Last page */ 
-
-
-.wrapper h1{
-    color: #E71D36;
-    font-size: 50px;
-    font-weight: 500px;
-    letter-spacing: 0.02em;
-}
-.wrapper h4{
-    font-size: 30px;
-    font-weight: 500px;
-    letter-spacing: 0.02em;
-}
-.wrapper .word{
-    font-size: 16px;
-    font-weight: 500px;
-    letter-spacing: 0.02em;
-}
-.wrapper .testimony {
-    display: flex;
-    justify-content: space-between;
-}
-.wrapper .testimony .right img{
-    height: 300px;
+.hello{
+    background-color: blueviolet;
+    border: 1px solid black;
 }
